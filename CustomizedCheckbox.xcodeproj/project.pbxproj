@@ -14,6 +14,7 @@
 		0A16E0911EF7AD8C004F9763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A16E08F1EF7AD8C004F9763 /* LaunchScreen.storyboard */; };
 		0A16E09C1EF7AD8C004F9763 /* CustomizedCheckboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16E09B1EF7AD8C004F9763 /* CustomizedCheckboxTests.swift */; };
 		0A16E0A71EF7AD8D004F9763 /* CustomizedCheckboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16E0A61EF7AD8D004F9763 /* CustomizedCheckboxUITests.swift */; };
+		0A16E0B51EF7B464004F9763 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 0A16E0B41EF7B464004F9763 /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0A16E0A21EF7AD8D004F9763 /* CustomizedCheckboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomizedCheckboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A16E0A61EF7AD8D004F9763 /* CustomizedCheckboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedCheckboxUITests.swift; sourceTree = "<group>"; };
 		0A16E0A81EF7AD8D004F9763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A16E0B41EF7B464004F9763 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		0A16E0851EF7AD8C004F9763 /* CustomizedCheckbox */ = {
 			isa = PBXGroup;
 			children = (
+				0A16E0B41EF7B464004F9763 /* Classes */,
 				0A16E0861EF7AD8C004F9763 /* AppDelegate.swift */,
 				0A16E0881EF7AD8C004F9763 /* ViewController.swift */,
 				0A16E08A1EF7AD8C004F9763 /* Main.storyboard */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A16E0911EF7AD8C004F9763 /* LaunchScreen.storyboard in Resources */,
+				0A16E0B51EF7B464004F9763 /* Classes in Resources */,
 				0A16E08E1EF7AD8C004F9763 /* Assets.xcassets in Resources */,
 				0A16E08C1EF7AD8C004F9763 /* Main.storyboard in Resources */,
 			);
