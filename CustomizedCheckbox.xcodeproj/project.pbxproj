@@ -15,6 +15,9 @@
 		0A16E09C1EF7AD8C004F9763 /* CustomizedCheckboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16E09B1EF7AD8C004F9763 /* CustomizedCheckboxTests.swift */; };
 		0A16E0A71EF7AD8D004F9763 /* CustomizedCheckboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16E0A61EF7AD8D004F9763 /* CustomizedCheckboxUITests.swift */; };
 		0A16E0B51EF7B464004F9763 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 0A16E0B41EF7B464004F9763 /* Classes */; };
+		387DAE8F01C1A5031B7B40C6 /* Pods_CustomizedCheckboxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D28F2D40FCE6843224C650 /* Pods_CustomizedCheckboxUITests.framework */; };
+		456095AEECF86ADA31D6AD28 /* Pods_CustomizedCheckbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BC9FF9F6228ADDDAD199BA /* Pods_CustomizedCheckbox.framework */; };
+		4EFAF8AB89E29A861C646A82 /* Pods_CustomizedCheckboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46590C642E4138B32C861693 /* Pods_CustomizedCheckboxTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		0A16E0A61EF7AD8D004F9763 /* CustomizedCheckboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedCheckboxUITests.swift; sourceTree = "<group>"; };
 		0A16E0A81EF7AD8D004F9763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A16E0B41EF7B464004F9763 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		35B21D665BCEADC9C3E5081D /* Pods-CustomizedCheckbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomizedCheckbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomizedCheckbox/Pods-CustomizedCheckbox.release.xcconfig"; sourceTree = "<group>"; };
+		46590C642E4138B32C861693 /* Pods_CustomizedCheckboxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomizedCheckboxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		469EC1EA892B39A5244397B6 /* Pods-CustomizedCheckboxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomizedCheckboxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomizedCheckboxTests/Pods-CustomizedCheckboxTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F6622A93E3764A777E2DA52 /* Pods-CustomizedCheckboxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomizedCheckboxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomizedCheckboxUITests/Pods-CustomizedCheckboxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA37B23C4C5663843A7EE5A7 /* Pods-CustomizedCheckboxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomizedCheckboxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomizedCheckboxTests/Pods-CustomizedCheckboxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA0E2591DC6853052FBC9C29 /* Pods-CustomizedCheckboxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomizedCheckboxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomizedCheckboxUITests/Pods-CustomizedCheckboxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1BC9FF9F6228ADDDAD199BA /* Pods_CustomizedCheckbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomizedCheckbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D28F2D40FCE6843224C650 /* Pods_CustomizedCheckboxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomizedCheckboxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0EE41E9CB5389A706ACF2E /* Pods-CustomizedCheckbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomizedCheckbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomizedCheckbox/Pods-CustomizedCheckbox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456095AEECF86ADA31D6AD28 /* Pods_CustomizedCheckbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EFAF8AB89E29A861C646A82 /* Pods_CustomizedCheckboxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387DAE8F01C1A5031B7B40C6 /* Pods_CustomizedCheckboxUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				0A16E09A1EF7AD8C004F9763 /* CustomizedCheckboxTests */,
 				0A16E0A51EF7AD8D004F9763 /* CustomizedCheckboxUITests */,
 				0A16E0841EF7AD8C004F9763 /* Products */,
+				BB7F1F8FB4CD907826AEE32A /* Pods */,
+				3D5BBF2DCF22BF37C5714605 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = CustomizedCheckboxUITests;
 			sourceTree = "<group>";
 		};
+		3D5BBF2DCF22BF37C5714605 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1BC9FF9F6228ADDDAD199BA /* Pods_CustomizedCheckbox.framework */,
+				46590C642E4138B32C861693 /* Pods_CustomizedCheckboxTests.framework */,
+				F5D28F2D40FCE6843224C650 /* Pods_CustomizedCheckboxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB7F1F8FB4CD907826AEE32A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA0EE41E9CB5389A706ACF2E /* Pods-CustomizedCheckbox.debug.xcconfig */,
+				35B21D665BCEADC9C3E5081D /* Pods-CustomizedCheckbox.release.xcconfig */,
+				AA37B23C4C5663843A7EE5A7 /* Pods-CustomizedCheckboxTests.debug.xcconfig */,
+				469EC1EA892B39A5244397B6 /* Pods-CustomizedCheckboxTests.release.xcconfig */,
+				DA0E2591DC6853052FBC9C29 /* Pods-CustomizedCheckboxUITests.debug.xcconfig */,
+				8F6622A93E3764A777E2DA52 /* Pods-CustomizedCheckboxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A16E0AB1EF7AD8D004F9763 /* Build configuration list for PBXNativeTarget "CustomizedCheckbox" */;
 			buildPhases = (
+				68077FF8FC1AE976FE3C40DF /* [CP] Check Pods Manifest.lock */,
 				0A16E07F1EF7AD8C004F9763 /* Sources */,
 				0A16E0801EF7AD8C004F9763 /* Frameworks */,
 				0A16E0811EF7AD8C004F9763 /* Resources */,
+				6B85BEDDD3854F00F4E9C29C /* [CP] Embed Pods Frameworks */,
+				61FB80129F611499DB205F56 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A16E0AE1EF7AD8D004F9763 /* Build configuration list for PBXNativeTarget "CustomizedCheckboxTests" */;
 			buildPhases = (
+				AECEC40236D373D17F7CC55F /* [CP] Check Pods Manifest.lock */,
 				0A16E0931EF7AD8C004F9763 /* Sources */,
 				0A16E0941EF7AD8C004F9763 /* Frameworks */,
 				0A16E0951EF7AD8C004F9763 /* Resources */,
+				7530E1CDA2CBE22CD77C76FE /* [CP] Embed Pods Frameworks */,
+				D5B54AEEEC29B69EBC4F3319 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A16E0B11EF7AD8D004F9763 /* Build configuration list for PBXNativeTarget "CustomizedCheckboxUITests" */;
 			buildPhases = (
+				9F65110E0D06833A853FE800 /* [CP] Check Pods Manifest.lock */,
 				0A16E09E1EF7AD8D004F9763 /* Sources */,
 				0A16E09F1EF7AD8D004F9763 /* Frameworks */,
 				0A16E0A01EF7AD8D004F9763 /* Resources */,
+				FEDFD79A58878E166AAF8F65 /* [CP] Embed Pods Frameworks */,
+				CA387D77B9C27A692CBB0BA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +309,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61FB80129F611499DB205F56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomizedCheckbox/Pods-CustomizedCheckbox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68077FF8FC1AE976FE3C40DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B85BEDDD3854F00F4E9C29C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomizedCheckbox/Pods-CustomizedCheckbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7530E1CDA2CBE22CD77C76FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomizedCheckboxTests/Pods-CustomizedCheckboxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F65110E0D06833A853FE800 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AECEC40236D373D17F7CC55F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA387D77B9C27A692CBB0BA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomizedCheckboxUITests/Pods-CustomizedCheckboxUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5B54AEEEC29B69EBC4F3319 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomizedCheckboxTests/Pods-CustomizedCheckboxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEDFD79A58878E166AAF8F65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomizedCheckboxUITests/Pods-CustomizedCheckboxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A16E07F1EF7AD8C004F9763 /* Sources */ = {
@@ -419,6 +606,7 @@
 		};
 		0A16E0AC1EF7AD8D004F9763 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA0EE41E9CB5389A706ACF2E /* Pods-CustomizedCheckbox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CG26L5D69X;
@@ -432,6 +620,7 @@
 		};
 		0A16E0AD1EF7AD8D004F9763 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35B21D665BCEADC9C3E5081D /* Pods-CustomizedCheckbox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CG26L5D69X;
@@ -445,6 +634,7 @@
 		};
 		0A16E0AF1EF7AD8D004F9763 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA37B23C4C5663843A7EE5A7 /* Pods-CustomizedCheckboxTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +650,7 @@
 		};
 		0A16E0B01EF7AD8D004F9763 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469EC1EA892B39A5244397B6 /* Pods-CustomizedCheckboxTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +666,7 @@
 		};
 		0A16E0B21EF7AD8D004F9763 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0E2591DC6853052FBC9C29 /* Pods-CustomizedCheckboxUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = CG26L5D69X;
@@ -489,6 +681,7 @@
 		};
 		0A16E0B31EF7AD8D004F9763 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6622A93E3764A777E2DA52 /* Pods-CustomizedCheckboxUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = CG26L5D69X;

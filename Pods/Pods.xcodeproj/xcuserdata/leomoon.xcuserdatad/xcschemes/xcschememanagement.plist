@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BEMCheckBox.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CustomizedCheckbox.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CustomizedCheckboxTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CustomizedCheckboxUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5CEF468D284521F8FBF8EBCA5BE1DF01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89642F902B55CCEDCD03CB45CD447773</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC19A72FB7D1DB0B2CC5F6C5CF2400F4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D70A6FE83AEB5E5A23D4355708047A6A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
