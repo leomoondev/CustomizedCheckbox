@@ -15,6 +15,7 @@
 		0A16E09C1EF7AD8C004F9763 /* CustomizedCheckboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16E09B1EF7AD8C004F9763 /* CustomizedCheckboxTests.swift */; };
 		0A16E0A71EF7AD8D004F9763 /* CustomizedCheckboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16E0A61EF7AD8D004F9763 /* CustomizedCheckboxUITests.swift */; };
 		0A16E0B51EF7B464004F9763 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 0A16E0B41EF7B464004F9763 /* Classes */; };
+		0A16E0B91EF7BC14004F9763 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16E0B81EF7BC14004F9763 /* TableViewCell.swift */; };
 		387DAE8F01C1A5031B7B40C6 /* Pods_CustomizedCheckboxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D28F2D40FCE6843224C650 /* Pods_CustomizedCheckboxUITests.framework */; };
 		456095AEECF86ADA31D6AD28 /* Pods_CustomizedCheckbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BC9FF9F6228ADDDAD199BA /* Pods_CustomizedCheckbox.framework */; };
 		4EFAF8AB89E29A861C646A82 /* Pods_CustomizedCheckboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46590C642E4138B32C861693 /* Pods_CustomizedCheckboxTests.framework */; };
@@ -52,6 +53,7 @@
 		0A16E0A61EF7AD8D004F9763 /* CustomizedCheckboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedCheckboxUITests.swift; sourceTree = "<group>"; };
 		0A16E0A81EF7AD8D004F9763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A16E0B41EF7B464004F9763 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		0A16E0B81EF7BC14004F9763 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		35B21D665BCEADC9C3E5081D /* Pods-CustomizedCheckbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomizedCheckbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomizedCheckbox/Pods-CustomizedCheckbox.release.xcconfig"; sourceTree = "<group>"; };
 		46590C642E4138B32C861693 /* Pods_CustomizedCheckboxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomizedCheckboxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		469EC1EA892B39A5244397B6 /* Pods-CustomizedCheckboxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomizedCheckboxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomizedCheckboxTests/Pods-CustomizedCheckboxTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				0A16E0861EF7AD8C004F9763 /* AppDelegate.swift */,
 				0A16E0881EF7AD8C004F9763 /* ViewController.swift */,
 				0A16E08A1EF7AD8C004F9763 /* Main.storyboard */,
+				0A16E0B81EF7BC14004F9763 /* TableViewCell.swift */,
 				0A16E08D1EF7AD8C004F9763 /* Assets.xcassets */,
 				0A16E08F1EF7AD8C004F9763 /* LaunchScreen.storyboard */,
 				0A16E0921EF7AD8C004F9763 /* Info.plist */,
@@ -453,6 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A16E0B91EF7BC14004F9763 /* TableViewCell.swift in Sources */,
 				0A16E0891EF7AD8C004F9763 /* ViewController.swift in Sources */,
 				0A16E0871EF7AD8C004F9763 /* AppDelegate.swift in Sources */,
 			);
@@ -713,6 +717,7 @@
 				0A16E0AD1EF7AD8D004F9763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A16E0AE1EF7AD8D004F9763 /* Build configuration list for PBXNativeTarget "CustomizedCheckboxTests" */ = {
 			isa = XCConfigurationList;
@@ -721,6 +726,7 @@
 				0A16E0B01EF7AD8D004F9763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A16E0B11EF7AD8D004F9763 /* Build configuration list for PBXNativeTarget "CustomizedCheckboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -729,6 +735,7 @@
 				0A16E0B31EF7AD8D004F9763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

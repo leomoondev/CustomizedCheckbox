@@ -32,9 +32,14 @@ class ViewController: UITableViewController {
         return "Circle"
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        cell.textLabel?.text = "this is \(indexPath.row) row"
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TableViewCell
+
+        cell.checkBox.boxType = indexPath.section == 0 ? .circle : .square
+//        if indexPath.section == 0 {
+//            cell.checkBox.boxType = .circle
+//        } else if indexPath.section == 1 {
+//            cell.checkBox.boxType = .square
+//        }
         return cell
     }
 }
